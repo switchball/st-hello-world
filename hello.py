@@ -7,7 +7,7 @@ This is the first app created via streamlit.
 
 # Everything is accessible via the st.secrets dict:
 
-st.write("Day Limit:", st.secrets["day_limit"])
+st.write("Day Limit:", st.secrets["DAY_LIMIT"])
 st.write("My cool secrets:", st.secrets["api_key"]["secret_key"])
 st.write("My cool secrets:", st.secrets["api_key"]["extra_keys"])
 
